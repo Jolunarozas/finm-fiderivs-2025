@@ -102,8 +102,7 @@ def plot_interp_curves(curves,plot_contin=True):
     plt.legend()
     plt.show()
 
-    
-    
+
     
 def price_bond(ytm, T, cpn, cpnfreq=2, face=100, accr_frac=None):
     ytm_n = ytm/cpnfreq
